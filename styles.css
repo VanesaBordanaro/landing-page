@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "Birthstone bounce regular";
+    src: url("BirthstoneBounce-Regular.ttf");
+}
+@font-face{
+    font-family: "dosis";
+    src: url("Dosis-VariableFont_wght.ttf")
+}
+body{
+    background: #ffffff;
+    background: linear-gradient(180deg, rgb(245,211,214) 20%, rgb(249,223,141) 40%, rgb(214,130,48) 60%, rgb(151, 37, 43) 80%, rgb(71, 36, 38) 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #f0ecec38;
+    color: #fff;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .logo img {
+    height: 50px;
+    border-radius: 50%;
+  }
+  .nav-links {
+    margin-right: 30px;
+  }
+  
+  .nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: rgb(151, 37, 43);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  #title{
+    font-family: Birthstone bounce regular;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(151, 37, 43);
+  }
+  #form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  #email{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: -30px;
+    border: 1px solid rgb(151, 37, 43);
+  }
+
+  #submit{
+    margin-top: 10px;
+    background-color: #e7e44d80;
+    color: rgb(151, 37, 43);
+    padding: 10px 20px;
+    border: 1px solid rgb(151, 37, 43);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  #submit:hover {
+    background: rgb(151, 37, 43);
+    color: #e7e44d80;
+  } 
+  #about{
+    color:rgb(151, 37, 43);
+    margin-left: 20px;
+  }
+
+  p{
+    margin: 20px;
+    font-family: dosis;
+    font-size: 20px;
+  }
+  #video{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  #products{
+    color:rgb(249,223,141);
+    margin-left: 20px;
+  }
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    margin: 20px;
+    padding: 20px;
+    background-color: #e7e44d80;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: 169px;
+    border-radius: 5px;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+    color:rgb(71, 36, 38);
+    font-family: dosis;
+    font-size: 24px;
+  }
+  
+  .card p {
+    margin-top: 10px;
+    font-family: dosis;
+    font-size: 16px;
+    color: rgb(71, 36, 38);
+  }
+  
+  .card button {
+    margin-top: 20px;
+    background-color: rgb(151, 37, 43);
+    color: #e7e44d80;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: dosis;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card button:hover {
+    background-color: rgb(71, 36, 38);
+  }
+
+  @media (max-width: 768px) {
+    /* Styles for smaller screens */
+    .product {
+      flex-direction: column;
+    }
+    .product-image {
+      order: 2;
+    }
+    .product-info {
+      order: 1;
+      margin-bottom: 20px;
+    }
+  }
+  
+  footer {
+    background-color: #e7e44d80;
+    font-family: dosis;
+    color: rgb(151, 37, 43);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  #footer{
+    font-weight: bold;
+  }
+  
+
+
+  
